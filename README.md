@@ -5,11 +5,15 @@ Temperature field inversion of heat-source systems (TFI-HSS) with limited observ
 
 
 # Requirement
-
 The exact TFI-HSS data in this paper can be obtained by the two following method
 - The finite difference (see the FD_solver)
 - The [layout-generator](https://layout-generator.readthedocs.io/zh/latest/src/tutorial/1discrete.html) (Intelligent Design & Robust Learning Laboratory)
   - Command: layout_generator generate --config config.yml
+The sampling tool
+- geo_utils.geo2d
+  - git clone https://git.idrl.site/pengwei/geo_utils.git
+  - cd geo_utils
+  - pip install -e.
 
 
 # Cite PINN_TFI-HSS
